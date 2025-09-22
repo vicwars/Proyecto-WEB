@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --background-color: #f3e5d8;
+    --font-title: 30px;
+    --font-color: #cdb0aa;
+    --color-title:#393939;
+    --color-paragraph:#979593;
+    --background-preparation:#fff7fc;
+    --font-text: 13px;
+}
+
+body{
+    background-color: var(--background-color);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+article  {
+    width: 500px;
+    padding: 30px;
+    background-color: white;
+    margin: 50px auto;
+    border-radius: 15p x;
+    
+    img {
+        width: 100%;
+        border-radius: 15px;
+    }
+}
+
+H2 {
+
+    margin: 20px 0;
+    font-size: var(--font-title);
+    color: var(--color-title);
+
+}
+p {
+    margin-bottom: 20px;
+    font-size: var(--font-text);
+    color: var(--color-paragraph);
+}
+.preparation {
+    background-color: var(--background-preparation);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+}   
+ 
+.preparation h3 {
+    color: #724459;
+    font-size: 20px;
+}   
+.preparation ul {
+    margin-left: 20px;
+    color: #847c7f;
+}
+.preparation, ul li {
+    margin: 5px ;
+    margin-bottom: 10px
+}   
+h3 {
+    margin: 20px 0;
+    color: #7a4b3b;
+    font-size: 30px
+
+} 
+
+ul, ol {
+    margin-left: 20px;
+    color: #5a5a5a;    
+}
+.ingredients,.instructions {
+    margin-bottom: 20px ;
+}
+
+.instructions, ol li {
+    margin: 5px ;
+    margin-bottom: 10px;
+}
+li::marker {
+    color: #cdb0aa;
+/* }   
+li {
+    color: var(--font-color);
+
+}
+
+li strong {
+    color: black;
+} */
